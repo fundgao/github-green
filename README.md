@@ -1,6 +1,9 @@
 # world-app
 For every human
 
+# Introduce
+Copy by world app, build on Flutter
+
 
 [Flutter教程](https://flutter.cn/docs/get-started/install)
 
