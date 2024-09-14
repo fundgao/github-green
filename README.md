@@ -8,6 +8,8 @@ a commit a day keeps your girlfriend away
 
 #### 打卡辛苦两年半，不打卡后悔一辈子
 
+##### 我爱打卡！
+
 ## 技术三问
 - 能自动否
 - 有轮子否
