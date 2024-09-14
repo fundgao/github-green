@@ -4,6 +4,8 @@ For every Github Gay
 
 a commit a day keeps your girlfriend away
 
+技术大牛：坚持两年半，绿他一整年
+
 ## 技术三问
 - 能自动否
 - 有轮子否
