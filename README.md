@@ -1,10 +1,10 @@
-# world-app
-For every human
+# 怎样让你的 GitHub 365 天都保持全绿
+For every Github Gay
 
 # Introduce
 Copy by world app, build on Flutter
 
 
-[zzzzggg工具](https://github.com/justjavac/node-auto-green)
+[自动化工具](https://github.com/justjavac/node-auto-green)
 
-[Flutter入门与实战](https://juejin.cn/post/6962386416835756068?searchId=202403221012090D2CE12152D096BFC64A)
+[怎样让你的 GitHub 365 天都保持全绿？](https://cloud.tencent.com/developer/article/1796848)
