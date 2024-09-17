@@ -10,6 +10,8 @@ a commit a day keeps your girlfriend away
 
 ##### 我爱打卡！
 
+### 灵活打卡
+
 ## 技术三问
 - 能自动否
 - 有轮子否
