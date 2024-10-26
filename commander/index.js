@@ -32,18 +32,6 @@ async function main() {
     });
 
   program
-    .command("git-add")
-    .description("Add GitHub code")
-    .action(async () => {
-      await exec("git add .", (error) => {
-        if (error) {
-          console.error(`执行的错误: ${error}`);
-          return;
-        }
-      });
-    });
-
-  program
     .command("git-push")
     .description("Push GitHub code")
     .action(async () => {
@@ -61,6 +49,6 @@ async function main() {
   program.parse();
 }
 
-const job = schedule.scheduleJob("* * 15 * * *", function () {
+const job = schedule.scheduleJob("* 35 * * * *", function () {
   main().catch(console.error);
 });
