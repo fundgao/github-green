@@ -13,18 +13,19 @@ async function main() {
   const current_date = `${now.getFullYear()}-${
     now.getMonth() + 1
   }-${now.getDate()} ${now.getHours()}`;
-  // shell.exec("git pull");
+  if (shell.exec("git pull").code !== 0) {
+    shell.echo("Error: Git pull failed");
+    shell.exit(1);
+  }
   // // 同步追加  \r\n 表示换行
-  // fs.appendFileSync("./打卡.txt", "\r\n" + current_date);
-  // shell.exec("git add .");
-  // shell.exec(`git commit -m "feat: ${current_date}打卡`);
-  // shell.exec("git push");
-
+  fs.appendFileSync("./打卡.txt", "\r\n" + current_date);
   if (shell.exec("git add .").code !== 0) {
     shell.echo("Error: Git add failed");
     shell.exit(1);
   }
-  if (shell.exec(`git commit -m "feat: ${current_date}打卡"`).code !== 0) {
+  if (
+    shell.exec(`git commit -m "feat: auto commit ${current_date}"`).code !== 0
+  ) {
     shell.echo("Error: Git commit failed");
     shell.exit(1);
   }
@@ -34,6 +35,6 @@ async function main() {
   }
 }
 
-const job = schedule.scheduleJob("00 19 * * * *", function () {
+const job = schedule.scheduleJob("00 23 * * * *", function () {
   main().catch(console.error);
 });
