@@ -1,9 +1,10 @@
 {
-  "name": "commander",
+  "name": "shelljs",
   "version": "1.0.0",
   "description": "Github 自动打卡",
   "main": "index.js",
   "type": "module",
+  "repository": "https://github.com/fundgao/github-green",
   "scripts": {
     "start": "node index"
   },
