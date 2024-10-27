@@ -35,6 +35,25 @@ async function main() {
   }
 }
 
-const job = schedule.scheduleJob("00 00 12 * * *", function () {
+const job = schedule.scheduleJob("00 10 13 * * *", function () {
   main().catch(console.error);
+});
+
+job.on("scheduled", () => {
+    console.log("1、每次计划执行前的事件。");
+});
+
+
+job.on("run", () => {
+    console.log("3、每次计划执行后的事件。");
+});
+
+
+job.on("success", () => {
+    console.log(`4、每次计划执行成功事件。`);
+});
+
+
+job.on("error", (err) => {
+    console.log(`[error][${new Date().toLocaleString()}]${err.message}`);
 });
