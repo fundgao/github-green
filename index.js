@@ -18,7 +18,7 @@ async function main() {
     shell.exit(1);
   }
   // // 同步追加  \r\n 表示换行
-  fs.appendFileSync("./打卡.txt", "\r\n" + current_date);
+  fs.appendFileSync("./shelljs/打卡.txt", "\r\n" + current_date);
   if (shell.exec("git add .").code !== 0) {
     shell.echo("Error: Git add failed");
     shell.exit(1);
@@ -35,6 +35,6 @@ async function main() {
   }
 }
 
-const job = schedule.scheduleJob("00 23 * * * *", function () {
+const job = schedule.scheduleJob("00 25 20 * * *", function () {
   main().catch(console.error);
 });
