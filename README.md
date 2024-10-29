@@ -19,7 +19,13 @@ Docker 在 app 目录下工作，此处没有 git 文件，无法完成 git 相�
 
 ## 解决
 
-通过云服务器上的终端，运行永久命令 `nohup npm run start &`
+通过云服务器上的终端，运行永久命令
+
+- `nohup npm run start &`
+
+  如果报错 `nohup: ignoring input and appending output to 'nohup.out'`
+
+- `nohup npm run start > /dev/null 2> /dev/null &`
 
 ## 怎样让你的 GitHub 365 天都保持全绿
 
