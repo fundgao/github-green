@@ -1,0 +1,11 @@
+
+> shelljs@1.0.0 start
+> node index
+
+1、每次计划执行前的事件。
+From github.com:fundgao/github-green
+   ab22627..aea582d  main       -> origin/main
+Updating ab22627..aea582d
+Fast-forward
+ README.md | 6 ++++++
+ 1 file changed, 6 insertions(+)

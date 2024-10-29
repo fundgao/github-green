@@ -35,7 +35,7 @@ async function main() {
   }
 }
 
-const job = schedule.scheduleJob("00 17 13 * * *", function () {
+const job = schedule.scheduleJob("00 17 20 * * *", function () {
   main().catch(console.error);
 });
 
