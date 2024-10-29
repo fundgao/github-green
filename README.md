@@ -27,6 +27,9 @@ Docker 在 app 目录下工作，此处没有 git 文件，无法完成 git 相�
 
 - `nohup npm run start > /dev/null 2> /dev/null &`
 
+- 查看 nohup 进程 `ps -aux | grep nohup` `ps aux | grep 'command_starting_with_nohup'`
+- 杀进程 `kill -9 PID`
+
 ## 怎样让你的 GitHub 365 天都保持全绿
 
 - [怎样让你的 GitHub 365 天都保持全绿？](https://cloud.tencent.com/developer/article/1796848)
