@@ -12,3 +12,6 @@
 
 - `npm install`
 - `npm run start`
+
+## 卡点
+Docker 在 app 目录下工作，此处没有git文件，无法完成git相关操作
