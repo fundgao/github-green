@@ -1,24 +1,26 @@
-# Github打卡集合 ｜ 绿Github者，人必绿之 ｜ You Green Github, Girl Green You
+# Github 自动打卡
 
-For every Github Gay
+## 思路
 
-a commit a day keeps your girlfriend away
+- 服务器安装 Git，并在 Github 贴上 ssh key
+- 拉取项目
+- 编写 node 脚本，通过 `shelljs` `git pull`、编辑文件 `fs.appendFileSync`、`git add`、`git commit`、`git push`
+- 定时，每天定时提交一次
+- 服务器启动 node 服务
 
-### 技术大牛：坚持两年半，绿他一整年
+## RUN
 
-#### 打卡辛苦两年半，不打卡后悔一辈子
+- `npm install`
+- `npm run start`
 
-##### 我爱打卡！
+## 卡点
 
-### 灵活打卡
+Docker 在 app 目录下工作，此处没有 git 文件，无法完成 git 相关操作
 
-## 技术三问
-- 能自动否
-- 有轮子否
-- 能优化否
+## 解决
 
-能自动绝不手动，有轮子用轮子，能优化必优化。
+通过云服务器上的终端，运行永久命令
 
 ## 怎样让你的 GitHub 365 天都保持全绿
-- [怎样让你的 GitHub 365 天都保持全绿？](https://cloud.tencent.com/developer/article/1796848)
 
+- [怎样让你的 GitHub 365 天都保持全绿？](https://cloud.tencent.com/developer/article/1796848)
