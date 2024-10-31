@@ -24,3 +24,12 @@ To github.com:fundgao/github-green.git
    317f050..c487007  main -> main
 3、每次计划执行后的事件。
 4、每次计划执行成功事件。
+1、每次计划执行前的事件。
+From github.com:fundgao/github-green
+   71028fd..cbc04ee  main       -> origin/main
+Updating 71028fd..cbc04ee
+Fast-forward
+ .github/workflows/ci.yml | 28 ++++++++++++++++++++++++++++
+ README.md                | 10 ++++++++++
+ 2 files changed, 38 insertions(+)
+ create mode 100644 .github/workflows/ci.yml
