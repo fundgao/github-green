@@ -33,3 +33,13 @@ Docker 在 app 目录下工作，此处没有 git 文件，无法完成 git 相�
 ## 怎样让你的 GitHub 365 天都保持全绿
 
 - [怎样让你的 GitHub 365 天都保持全绿？](https://cloud.tencent.com/developer/article/1796848)
+
+
+# Github Action
+
+通过 Github Action，定时更新仓库。
+
+- 新增 Action 配置文件 `.github/workflows/ci.yml`
+- 修改邮箱 `git config --local user.email "email"`
+- 修改提交描述 `git commit --allow-empty -m "feat: github auto commit by github action"`
+- Done
