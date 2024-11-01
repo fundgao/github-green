@@ -39,3 +39,8 @@ To github.com:fundgao/github-green.git
    cbc04ee..05a86d9  main -> main
 3、每次计划执行后的事件。
 4、每次计划执行成功事件。
+1、每次计划执行前的事件。
+From github.com:fundgao/github-green
+   ef2be38..fe05779  main       -> origin/main
+Updating ef2be38..fe05779
+Fast-forward
