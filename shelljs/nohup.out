@@ -98,3 +98,5 @@ To github.com:fundgao/github-green.git
    b9a6ada..050e698  main -> main
 3、每次计划执行后的事件。
 4、每次计划执行成功事件。
+1、每次计划执行前的事件。
+Already up to date.
